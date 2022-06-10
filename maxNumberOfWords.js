@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
 var mostWordsFound = function(sentences) {
     let count=0;
    for(let i=0;i<sentences.length;i++){
@@ -8,6 +9,6 @@ var mostWordsFound = function(sentences) {
        }
    }
       return count;
-      
+
   };
   console.log(mostWordsFound(["alice and bob love leetcode", "i think so too", "this is great thanks very much"]));
