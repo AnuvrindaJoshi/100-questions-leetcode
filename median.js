@@ -1,3 +1,5 @@
+//find median of two sorted arrays
+
 let findMedianSortedArrays = function(nums1, nums2) {
     let nums3= nums1.concat(nums2)
     let final=nums3.sort();
@@ -16,7 +18,7 @@ let findMedianSortedArrays = function(nums1, nums2) {
                 medianOfArray = 0;
             }
             else{
-               medianOfArray= (final[Math.floor( n/2)] + final[n/2-1])/2
+               medianOfArray= (final[Math.floor( n/2)] + final[n/2-1]) /2
             }
                    
         }
