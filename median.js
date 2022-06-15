@@ -4,7 +4,7 @@ let findMedianSortedArrays = function(nums1, nums2) {
     let nums3= nums1.concat(nums2)
     let final=nums3.sort();
         let n=final.length;
-        console.log(final)
+        console.log(final);
 
         
         let medianOfArray=0;
