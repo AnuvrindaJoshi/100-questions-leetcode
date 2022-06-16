@@ -8,8 +8,7 @@ let findMedianSortedArrays = function(nums1, nums2) {
 
         
         let medianOfArray=0;
-        let ind=Math.floor( n/2)
-        let ind2= ind+1;
+
         for(let i=0;i<n;i++){
             if(n%2!==0){
                 medianOfArray= final[Math.floor( n/2)];
